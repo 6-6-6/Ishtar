@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/tlkh/asitop"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="x64-macos arm64-macos"
+KEYWORDS="arm64-macos"
 
 IUSE=""
 RDEPEND="dev-python/dashing[${PYTHON_USEDEP}]
