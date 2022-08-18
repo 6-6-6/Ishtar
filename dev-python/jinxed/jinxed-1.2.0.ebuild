@@ -7,16 +7,14 @@ PYTHON_COMPAT=( python3_{9,10} )
 
 inherit distutils-r1
 
-DESCRIPTION="High-level terminal-based dashboard"
+DESCRIPTION="Jinxed Terminal Library"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
-HOMEPAGE="https://github.com/FedericoCeratto/dashing"
+HOMEPAGE="https://github.com/Rockhopper-Technologies/jinxed"
 
-LICENSE="LGPL"
+LICENSE="MPLv2.0"
 SLOT="0"
 KEYWORDS="arm64-macos"
 
-RDEPEND="
-	dev-python/blessed
-"
-
+IUSE=""
+RDEPEND="dev-python/ansicon[${PYTHON_USEDEP}]"
 distutils_enable_tests pytest
