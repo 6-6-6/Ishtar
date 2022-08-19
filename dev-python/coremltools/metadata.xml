@@ -2,8 +2,8 @@
     <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
     <pkgmetadata>
       <maintainer type="person">
-        <email>someone@example.org</email>
-        <name>Pypi ebuilder</name>
+        <email>zongyu@novazy.net</email>
+        <name>Zhang Zongyu</name>
       </maintainer>
       <longdescription lang="en">
       there will be description later.
@@ -12,4 +12,3 @@
         <remote-id type="pypi">coremltools</remote-id>
       </upstream>
     </pkgmetadata>
-    
