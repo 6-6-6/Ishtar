@@ -5,7 +5,7 @@ EAPI=7
 
 PYTHON_COMPAT=( python3_{9,10} )
 
-inherit distutils-r1 cmake
+inherit distutils-r1 # cmake
 
 DESCRIPTION="Community Tools for Core ML"
 SRC_URI="https://github.com/apple/coremltools/archive/refs/tags/6.0b2.tar.gz -> ${P}.tar.gz"
@@ -26,7 +26,7 @@ distutils_enable_tests pytest
 S="${S}b2"
 
 src_compile() {
-	cmake_src_compile
+#cmake_src_compile
 	distutils-r1_src_compile
 }
 
